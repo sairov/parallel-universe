@@ -1,0 +1,56 @@
+:root {
+  --colorPrincipal: #182026;
+  --blanco: #fff;
+  --titulo: #a3b4bf;
+  --navegacion: #011826;
+  --turred: "Turret Road", cursive;
+  --roboto: "Roboto Mono", monospace;
+  --cute: "Cute Font", cursive;
+  --quick: "Quicksand", sans-serif;
+  --maven: "Maven Pro", sans-serif;
+  --advent: "Advent Pro", sans-serif;
+  --jura: "Jura", sans-serif;
+  --aldrich: "Aldrich", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--turred);
+  background-image: url("../fotos_universo/19622.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: var(--jura);
+  font-size: 100px;
+  color: white;
+}
+
+h2 {
+  font-size: 48px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 0.8em 1.5em;
+  border-radius: 25px;
+  background-color: #182026;
+}
+
+a:hover {
+  background-color: darkblue;
+}
