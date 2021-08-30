@@ -1,0 +1,105 @@
+/*******ROOTS*******/
+
+:root {
+    --colorPrincipal: #929EA6;
+    --blanco: #FFF;
+    --auxiliar: #F27B13;
+    --fondo: #F2F2F2;
+    --navegacion: #011826;
+    --borde: #436073;
+    --boton: #E7E8EC;
+    --NotoSans: 'Noto Sans', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --Ubuntu: 'Ubuntu', sans-serif;
+    --Josefin: 'Josefin Sans', sans-serif;
+    --turred: 'Turret Road', cursive;  
+}
+
+
+/******GLOBALES*****/
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+  }
+
+*, *::before, *::after{
+  box-sizing: inherit;
+  margin: 0;
+}
+
+
+body {
+  width: 1024px;
+  background-color: var(--colorPrincipal);
+  font-family: var(--turred);
+  margin: 0 auto!important;
+  background-image: linear-gradient(to top, rgba(14, 20, 32, 0.6), rgba(0, 5, 15, 0.7)), url("../media/img/planet_surface_space_dark_island_98626_1920x1080.jpg"); /* linear-gradient(to top, rgba(10, 86, 240, 0.8), rgba(2, 19, 54, 0.8)), */
+  background-size: cover;
+}
+
+.todoAncho {
+    width: 100%;
+    margin: 0;
+}
+
+.todoAlto {
+    height: 99vh;
+}
+
+
+  header {
+    text-align: left;
+    width: 100%;
+  }
+
+  header h1 {
+    margin-top: 2rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #FFF;
+    padding: 10px 10px 5px;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+
+
+
+  .agenda {
+    margin: 1rem auto;
+    width: 95%;
+    }
+
+    .agenda ul{
+        list-style: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+     .agenda ul > li:nth-child(1) {
+        width: 15rem;
+    } 
+
+    .agenda ul > li:nth-child(5) {
+        width: 50rem;
+    } 
+
+    .agenda ul li {
+        border: 1px solid var(--blanco);
+        width: 100%;
+        padding: 2px 0;
+        background-color: var(--colorPrincipal);
+    }
+
+    #contactos ul li {
+        background-color: var(--borde);
+        font-family: var(--Ubuntu);
+    }
+
+
+  /******* AGENDA ********/
