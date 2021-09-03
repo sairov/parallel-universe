@@ -29,6 +29,7 @@ body {
   font-family: var(--turred);
   background-image: url("../fotos_universo/19622.jpg");
   background-size: cover;
+  text-align: center;
 }
 
 h1 {
